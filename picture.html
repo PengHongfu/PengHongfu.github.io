@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="收集并展示图片的网站！">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+   <!-- <link type="text/css" rel="stylesheet" href="image.css">-->
+    <title></title>
+    <style type="text/css">
+        html, body {
+            width: 100%;
+            height: 100%;
+            background: #f2f2f2;
+        }
+
+        .header {
+            background: #222;
+            background-repeat: no-repeat;
+            background-position: center 0;
+            -webkit-background-size: cover;
+            background-size: cover;
+            padding: 138px 0 0;
+            text-align: center;
+            min-height: 400px;
+            position: relative;
+        }
+
+        .logoimg {
+            position: absolute;
+            left: 1%;
+            right: 1%;
+            bottom: -34px;
+        }
+        .logotxt {
+            margin-bottom: 30px;
+            border: 0;
+        }
+        .logotxt a {
+            font-weight: 700;
+            color: #777;
+            font-size: 64px;
+        }
+        .header h2 {
+            color: #fff;
+            padding: 0;
+            margin: 0 0 45px;
+            font-weight: 100;
+            font-size: 34px;
+        }
+        .main {
+            margin-top: 90px;
+        }
+        .home-template .post {
+            position: relative;
+            margin-bottom: 30px;
+            padding-bottom: 40px;
+            background-color: #fff;
+            -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+            box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+        }
+        .post-featured-image .thumbnail{
+            border: none;/*无边框 这是一个a标签*/
+            overflow: hidden;/*内容超出，隐藏*/
+            padding: 12px 12px 0 12px;
+            width: 100%;
+            margin-bottom: 0;
+        }
+
+        .post-title a {
+            color: #777;
+        }
+        .post-title {
+            position: absolute;
+            font-size: 24px;
+            z-index: 9;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            margin: 0;
+        }
+
+        .copyright {
+            background: #111;
+            font-size: 13px;
+            text-align: center;
+            color: #555;
+            padding-top: 14px;
+            padding-bottom: 20px;
+            border-top: 1px solid #303030;
+        }
+        .copyright a {
+            color: #555;
+        }
+        .pager li a{
+            color:#555
+        }
+    </style>
+</head>
+<body class="home-template">
+
+<div class="header"
+     style="background-image: url(http://img.blog.csdn.net/20161016104428294)">
+    <div class="logoimg">
+        <a href="##"><img src="http://image.youzhan.org/e/35/22ccaf4c24ef690f7767e6a3ba5f0.png" alt="Bootstrap 优站精选" width="78"></a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+               <!-- <div class="logotxt"><h1><a href="##">坐标</a></h1></div>-->
+                <h2 class="site-name text-center">图片集</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main class="main" role="main">
+<div class="container">
+    <div id="post-list" class="row">
+        <div class="col-xs-12 col-md-6">
+            <article class="post ">
+                <div class="post-featured-image">
+                    <a class="thumbnail loaded" href="http://img.blog.csdn.net/20161016104339434" target="_blank">
+                        <img src="http://img.blog.csdn.net/20161016104339434" alt=""  height="438" width="700">
+                    </a>
+                </div>
+                <h2 class="post-title"><a href="http://jekyll.com.cn"
+                        target="_blank">一</a></h2>
+
+            </article>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <article class="post ">
+                <div class="post-featured-image">
+                    <a class="thumbnail loaded" href="http://img.blog.csdn.net/20161016104352359" target="_blank">
+                        <img src="http://img.blog.csdn.net/20161016104352359" alt=""  height="438" width="700">
+                    </a>
+                </div>
+                <h2 class="post-title"><a href="http://jekyll.com.cn"
+                                          target="_blank">二</a></h2>
+
+            </article>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <article class="post ">
+                <div class="post-featured-image">
+                    <a class="thumbnail loaded" href="http://img.blog.csdn.net/20161016104408403" target="_blank">
+                        <img src="http://img.blog.csdn.net/20161016104408403" alt=""  height="438" width="700">
+                    </a>
+                </div>
+                <h2 class="post-title"><a href="##"
+                                          target="_blank">三</a></h2>
+
+            </article>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <article class="post ">
+                <div class="post-featured-image">
+                    <a class="thumbnail loaded" href="http://img.blog.csdn.net/20161016104418591" target="_blank">
+                        <img src="http://img.blog.csdn.net/20161016104418591" alt="" height="438" width="700">
+                    </a>
+                </div>
+                <h2 class="post-title"><a href="##"
+                                          target="_blank">四</a></h2>
+
+            </article>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <article class="post ">
+                <div class="post-featured-image">
+                    <a class="thumbnail loaded" href="http://img.blog.csdn.net/20161016110948918" target="_blank">
+                        <img src="http://img.blog.csdn.net/20161016110948918" alt=""  height="438" width="700">
+                    </a>
+                </div>
+                <h2 class="post-title"><a href="##"
+                                          target="_blank">五</a></h2>
+
+            </article>
+        </div>
+        <div class="col-xs-12 col-md-6">
+        <article class="post ">
+            <div class="post-featured-image">
+                <a class="thumbnail loaded" href="http://img.blog.csdn.net/20161016104440607" target="_blank">
+                    <img src="http://img.blog.csdn.net/20161016104440607" alt="Jekyll中文网"  height="438" width="700">
+                </a>
+            </div>
+            <h2 class="post-title"><a href="##"
+                                      target="_blank">六</a></h2>
+
+        </article>
+    </div>
+
+    </div>
+
+</div>
+</main>
+<nav aria-label="Page navigation">
+    <ul class="pager">
+        <li><a href="#">上一页</a></li>
+        <li><a href="#">下一页</a></li>
+    </ul>
+</nav>
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span>Copyright © <a href="##">彭洪福</a></span> |
+                <span><a href="##" target="_blank">2017/03/27</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
